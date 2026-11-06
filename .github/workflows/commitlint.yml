@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
       - name: Install commitlint
         run: npm install @commitlint/cli @commitlint/types
       - name: Lint commits in PR
